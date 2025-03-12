@@ -1,0 +1,81 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents white space */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    /* Background Image */
+    background: url('images/header-background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures image covers the entire page */
+}
+
+
+/* Ensure container spans full width */
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Center and fix form width */
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 450px; /* Ensures a good width */
+    width: 90%;
+    text-align: left; /* Align form content to the left */
+    margin: 50px auto;
+}
+
+/* Input fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    background-color: white;
+}
+
+/* Navbar Fix */
+.navbar {
+    width: 100%;
+    background: #ad721f;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Footer Fix */
+.page-footer {
+    width: 100%;
+    background-color: #855511;
+    color: #ccc;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+/* Align labels to the left */
+.form-group label {
+    display: block; /* Ensures each label is on its own line */
+    text-align: left; /* Align text to the left */
+    font-weight: bold; /* Make labels bold */
+    margin-bottom: 5px; /* Add spacing below each label */
+    color: #333; /* Dark color for better readability */
+}
+
+
+
